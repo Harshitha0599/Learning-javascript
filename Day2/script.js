@@ -19,3 +19,4 @@ for(var i=0;i<arr.length;i++){
  arr.push("python");
 arr.pop();
 
+let ar1=["hiii",10 ,3927, false];
