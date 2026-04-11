@@ -16,7 +16,17 @@ for(var i=0;i<arr.length;i++){
     console.log(arr[i]);
     console.log(typeof(arr[i]));
 }
- arr.push("python");
-arr.pop();
+ arr.push("hiiiii");
+ console.log(arr);
+
+ arr.shift();
+ console.log(arr);
+
 
 let ar1=["hiii",10 ,3927, false];
+ar1.pop();
+console.log(ar1);
+ar1.unshift("yathika");
+console.log(ar1);
+
+
