@@ -60,3 +60,56 @@ const myFun1=function(n1,n2){
     return n1+n2;
 }
 console.log(myFun1(46,22));
+
+//calculator
+/*const a=25;
+const b=15;
+const operator = ("Enter operator (+, -, *, /):");
+
+switch (operator) {
+    case "+":function add(a,b){
+        return a+b;
+    }
+        break;
+    case "-":function sub(a,b){
+        return a-b;
+    }
+        break;
+    case "*":function mul(a,b){
+        return a*b;
+    }   
+        break;
+    case "/":function div(a,b){
+        return a/b;
+    }
+        break;      
+    default:
+        break;  
+}*/
+
+function calculator(a,b,operator){
+    switch (operator) {
+        case "+":
+            console.log("addition of "+a+" and "+b +" is "+(a+b));
+            //return a+b;
+            break;
+        case "-":
+            console.log("subtraction of "+a+" and "+b +" is "+(a-b));
+            //return a-b;
+            break;      
+        case "*":
+            console.log("multiplication of "+a+" and "+b +" is "+(a*b));
+            //return a*b;
+            break;
+
+        case "/":
+            console.log("division of "+a+" and "+b +" is "+(a/b));
+            //return a/b;
+            break;
+        default:
+            return "invalid operator";
+            break;  
+    }   
+}
+calculator(25,15,"+");
+//console.log( calculator(25,15,"-"));
