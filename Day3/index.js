@@ -41,3 +41,22 @@ for (const key in user) {
 for (const element of user) {
     console.log(element);
 }
+
+
+function myFun(){
+    //console.log("hello");
+    return 20;
+}
+//myFun();
+//console.log(myFun());
+console.log(myFun);
+
+function add(a,b){
+    return a+b;
+}
+console.log(add(100,200));
+
+const myFun1=function(n1,n2){
+    return n1+n2;
+}
+console.log(myFun1(46,22));
