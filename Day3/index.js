@@ -113,3 +113,11 @@ function calculator(a,b,operator){
 }
 calculator(25,15,"+");
 //console.log( calculator(25,15,"-"));
+
+
+let name = "yathika";
+let age = 5;
+
+console.log("My ..name is " + name + " and my age is " + age);
+
+console.log(`My ..name is ${name} and my age is ${age}`);
