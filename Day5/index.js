@@ -13,3 +13,5 @@ const myFun = () => {
     let myImg = document.getElementById("myImage");
     myImg.src = myImg.src === "https://tse1.mm.bing.net/th/id/OIP.UR0dlxc4kTpPz2EbHf03VAHaE8?pid=Api&P=0&h=180" ? "https://tse1.mm.bing.net/th/id/OIP.ctciPb5hqGg8gEKmIkwKlAHaEP?pid=Api&P=0&h=180" : "https://tse1.mm.bing.net/th/id/OIP.UR0dlxc4kTpPz2EbHf03VAHaE8?pid=Api&P=0&h=180";
 };
+
+
