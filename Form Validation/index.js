@@ -26,11 +26,22 @@ const login = (event) => {
 
 }
 
-function showPassword() {
-    var password = document.getElementById("password");
-    if (password.type === "password") {
-        password.type = "text";
-    } else {
+// function showPassword() {
+//     var password = document.getElementById("password");
+//     if (password.type === "password") {
+//         password.type = "text";
+//     } else {
+//         password.type = "password";
+//     }
+// }; 
+
+const showPassword = () => {
+    let password = document.getElementById("password");
+    let check = document.getElementById("check");
+    if (check.checked){
+        password.type ="text";
+    }
+    else{
         password.type = "password";
     }
-}; 
+}
